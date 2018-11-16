@@ -7,7 +7,6 @@ public class Constants {
 
     public static final class MainSettings {
         public static final String propertiesFileName = "./src/main/resources/db.properties";
-        public static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
         public static final DbProperties dbProperties = new DbProperties(propertiesFileName);
     }
 

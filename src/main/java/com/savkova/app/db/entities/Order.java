@@ -23,6 +23,17 @@ public class Order {
         this.status = "opened";
     }
 
+    public Order(int id, int contractNumber, int productId, int customerId, Date orderDate, int quantity, double price, String status) {
+        this.id = id;
+        this.contractNumber = contractNumber;
+        this.productId = productId;
+        this.customerId = customerId;
+        this.orderDate = orderDate;
+        this.quantity = quantity;
+        this.price = price;
+        this.status = status;
+    }
+
     public int getId() {
         return id;
     }
